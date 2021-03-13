@@ -1,0 +1,30 @@
+{
+	"name": "fcc-exercise-tracker",
+	"version": "1.0.0",
+	"author": "HOuadhour",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"mongoose": "^5.11.19"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HOuadhour/Exercise-Tracker.git"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express"
+	],
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"nodemon": "^2.0.7"
+	}
+}
